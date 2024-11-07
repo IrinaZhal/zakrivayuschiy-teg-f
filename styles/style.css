@@ -220,35 +220,35 @@
   block-size: 100%;
 }
 
-.sign {
+.filter-saturate {
   filter: saturate(55%);
 }
 
-.mini {
+.filter-grayscale {
   filter: grayscale(70%);
 }
 
-.tabletop {
+.filter-brightness {
   filter: brightness(70%);
 }
 
-.sky {
+.filter-contrast {
   filter: contrast(50%);
 }
 
-.text {
+.filter-invert {
   filter: invert(100%);
 }
 
-.food {
+.filter-mix-ssc {
   filter: sepia(0.4) saturate(120%) contrast(120%);
 }
 
-.drink {
+.filter-mix-hue-blur {
   filter: hue-rotate(0.7turn) blur(3px);
 }
 
-.root {
+.filter-mix-sepia-br {
   filter: sepia(0.3) brightness(70%);
 }
 
